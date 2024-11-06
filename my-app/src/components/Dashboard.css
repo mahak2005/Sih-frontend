@@ -1,0 +1,19 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.dashboard-body {
+    display: flex;
+    height: 100%;
+}
+
+.dashboard-main {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f7fa;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}

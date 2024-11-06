@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f3a93;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-section img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.download-button {
+    background-color: #517fa4;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: #436d8a;
+}
