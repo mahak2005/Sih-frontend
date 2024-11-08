@@ -1,0 +1,25 @@
+.notifications {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notifications h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.notification-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.notification-card {
+    padding: 10px;
+    background-color: #e9f7ef;
+    border-left: 4px solid #27ae60;
+    color: #2c3e50;
+    border-radius: 5px;
+}
